@@ -1,0 +1,371 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF39B8BA-D863-40BC-9F56-BDE4A637E19A}|SEMINARIO02\\SEMINARIO02.csproj|c:\\users\\alonso\\onedrive\\alonsopy-jv-wb-db\\sem complement practica i\\4to sem seminario\\seminario002\\seminario02\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF39B8BA-D863-40BC-9F56-BDE4A637E19A}|SEMINARIO02\\SEMINARIO02.csproj|solutionrelative:seminario02\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF39B8BA-D863-40BC-9F56-BDE4A637E19A}|SEMINARIO02\\SEMINARIO02.csproj|c:\\users\\alonso\\onedrive\\alonsopy-jv-wb-db\\sem complement practica i\\4to sem seminario\\seminario002\\seminario02\\models\\tecnicoproyectomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF39B8BA-D863-40BC-9F56-BDE4A637E19A}|SEMINARIO02\\SEMINARIO02.csproj|solutionrelative:seminario02\\models\\tecnicoproyectomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF39B8BA-D863-40BC-9F56-BDE4A637E19A}|SEMINARIO02\\SEMINARIO02.csproj|c:\\users\\alonso\\onedrive\\alonsopy-jv-wb-db\\sem complement practica i\\4to sem seminario\\seminario002\\seminario02\\models\\tecnicomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF39B8BA-D863-40BC-9F56-BDE4A637E19A}|SEMINARIO02\\SEMINARIO02.csproj|solutionrelative:seminario02\\models\\tecnicomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF39B8BA-D863-40BC-9F56-BDE4A637E19A}|SEMINARIO02\\SEMINARIO02.csproj|c:\\users\\alonso\\onedrive\\alonsopy-jv-wb-db\\sem complement practica i\\4to sem seminario\\seminario002\\seminario02\\models\\proyectomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF39B8BA-D863-40BC-9F56-BDE4A637E19A}|SEMINARIO02\\SEMINARIO02.csproj|solutionrelative:seminario02\\models\\proyectomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF39B8BA-D863-40BC-9F56-BDE4A637E19A}|SEMINARIO02\\SEMINARIO02.csproj|c:\\users\\alonso\\onedrive\\alonsopy-jv-wb-db\\sem complement practica i\\4to sem seminario\\seminario002\\seminario02\\models\\empresamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF39B8BA-D863-40BC-9F56-BDE4A637E19A}|SEMINARIO02\\SEMINARIO02.csproj|solutionrelative:seminario02\\models\\empresamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF39B8BA-D863-40BC-9F56-BDE4A637E19A}|SEMINARIO02\\SEMINARIO02.csproj|c:\\users\\alonso\\onedrive\\alonsopy-jv-wb-db\\sem complement practica i\\4to sem seminario\\seminario002\\seminario02\\models\\conocimientomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF39B8BA-D863-40BC-9F56-BDE4A637E19A}|SEMINARIO02\\SEMINARIO02.csproj|solutionrelative:seminario02\\models\\conocimientomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF39B8BA-D863-40BC-9F56-BDE4A637E19A}|SEMINARIO02\\SEMINARIO02.csproj|c:\\users\\alonso\\onedrive\\alonsopy-jv-wb-db\\sem complement practica i\\4to sem seminario\\seminario002\\seminario02\\models\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF39B8BA-D863-40BC-9F56-BDE4A637E19A}|SEMINARIO02\\SEMINARIO02.csproj|solutionrelative:seminario02\\models\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF39B8BA-D863-40BC-9F56-BDE4A637E19A}|SEMINARIO02\\SEMINARIO02.csproj|c:\\users\\alonso\\onedrive\\alonsopy-jv-wb-db\\sem complement practica i\\4to sem seminario\\seminario002\\seminario02\\models\\categoriamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF39B8BA-D863-40BC-9F56-BDE4A637E19A}|SEMINARIO02\\SEMINARIO02.csproj|solutionrelative:seminario02\\models\\categoriamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F335D59F-F4AA-41F0-B250-500795680B5D}|APISEMINARIO\\APISEMINARIO.csproj|c:\\users\\alonso\\onedrive\\alonsopy-jv-wb-db\\sem complement practica i\\4to sem seminario\\seminario002\\apiseminario\\migrations\\20240314024722_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F335D59F-F4AA-41F0-B250-500795680B5D}|APISEMINARIO\\APISEMINARIO.csproj|solutionrelative:apiseminario\\migrations\\20240314024722_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF39B8BA-D863-40BC-9F56-BDE4A637E19A}|SEMINARIO02\\SEMINARIO02.csproj|c:\\users\\alonso\\onedrive\\alonsopy-jv-wb-db\\sem complement practica i\\4to sem seminario\\seminario002\\seminario02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF39B8BA-D863-40BC-9F56-BDE4A637E19A}|SEMINARIO02\\SEMINARIO02.csproj|solutionrelative:seminario02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF39B8BA-D863-40BC-9F56-BDE4A637E19A}|SEMINARIO02\\SEMINARIO02.csproj|c:\\users\\alonso\\onedrive\\alonsopy-jv-wb-db\\sem complement practica i\\4to sem seminario\\seminario002\\seminario02\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DF39B8BA-D863-40BC-9F56-BDE4A637E19A}|SEMINARIO02\\SEMINARIO02.csproj|solutionrelative:seminario02\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F335D59F-F4AA-41F0-B250-500795680B5D}|APISEMINARIO\\APISEMINARIO.csproj|c:\\users\\alonso\\onedrive\\alonsopy-jv-wb-db\\sem complement practica i\\4to sem seminario\\seminario002\\apiseminario\\senaticontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F335D59F-F4AA-41F0-B250-500795680B5D}|APISEMINARIO\\APISEMINARIO.csproj|solutionrelative:apiseminario\\senaticontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F335D59F-F4AA-41F0-B250-500795680B5D}|APISEMINARIO\\APISEMINARIO.csproj|c:\\users\\alonso\\onedrive\\alonsopy-jv-wb-db\\sem complement practica i\\4to sem seminario\\seminario002\\apiseminario\\tecnicoproyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F335D59F-F4AA-41F0-B250-500795680B5D}|APISEMINARIO\\APISEMINARIO.csproj|solutionrelative:apiseminario\\tecnicoproyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F335D59F-F4AA-41F0-B250-500795680B5D}|APISEMINARIO\\APISEMINARIO.csproj|c:\\users\\alonso\\onedrive\\alonsopy-jv-wb-db\\sem complement practica i\\4to sem seminario\\seminario002\\apiseminario\\tecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F335D59F-F4AA-41F0-B250-500795680B5D}|APISEMINARIO\\APISEMINARIO.csproj|solutionrelative:apiseminario\\tecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F335D59F-F4AA-41F0-B250-500795680B5D}|APISEMINARIO\\APISEMINARIO.csproj|c:\\users\\alonso\\onedrive\\alonsopy-jv-wb-db\\sem complement practica i\\4to sem seminario\\seminario002\\apiseminario\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F335D59F-F4AA-41F0-B250-500795680B5D}|APISEMINARIO\\APISEMINARIO.csproj|solutionrelative:apiseminario\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F335D59F-F4AA-41F0-B250-500795680B5D}|APISEMINARIO\\APISEMINARIO.csproj|c:\\users\\alonso\\onedrive\\alonsopy-jv-wb-db\\sem complement practica i\\4to sem seminario\\seminario002\\apiseminario\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F335D59F-F4AA-41F0-B250-500795680B5D}|APISEMINARIO\\APISEMINARIO.csproj|solutionrelative:apiseminario\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F335D59F-F4AA-41F0-B250-500795680B5D}|APISEMINARIO\\APISEMINARIO.csproj|c:\\users\\alonso\\onedrive\\alonsopy-jv-wb-db\\sem complement practica i\\4to sem seminario\\seminario002\\apiseminario\\conocimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F335D59F-F4AA-41F0-B250-500795680B5D}|APISEMINARIO\\APISEMINARIO.csproj|solutionrelative:apiseminario\\conocimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F335D59F-F4AA-41F0-B250-500795680B5D}|APISEMINARIO\\APISEMINARIO.csproj|c:\\users\\alonso\\onedrive\\alonsopy-jv-wb-db\\sem complement practica i\\4to sem seminario\\seminario002\\apiseminario\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F335D59F-F4AA-41F0-B250-500795680B5D}|APISEMINARIO\\APISEMINARIO.csproj|solutionrelative:apiseminario\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F335D59F-F4AA-41F0-B250-500795680B5D}|APISEMINARIO\\APISEMINARIO.csproj|c:\\users\\alonso\\onedrive\\alonsopy-jv-wb-db\\sem complement practica i\\4to sem seminario\\seminario002\\apiseminario\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F335D59F-F4AA-41F0-B250-500795680B5D}|APISEMINARIO\\APISEMINARIO.csproj|solutionrelative:apiseminario\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 359,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 129,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\APISEMINARIO\\Categoria.cs",
+              "RelativeDocumentMoniker": "APISEMINARIO\\Categoria.cs",
+              "ToolTip": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\APISEMINARIO\\Categoria.cs",
+              "RelativeToolTip": "APISEMINARIO\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T20:22:50.491Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\APISEMINARIO\\Cliente.cs",
+              "RelativeDocumentMoniker": "APISEMINARIO\\Cliente.cs",
+              "ToolTip": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\APISEMINARIO\\Cliente.cs",
+              "RelativeToolTip": "APISEMINARIO\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T20:22:59.931Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Conocimiento.cs",
+              "DocumentMoniker": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\APISEMINARIO\\Conocimiento.cs",
+              "RelativeDocumentMoniker": "APISEMINARIO\\Conocimiento.cs",
+              "ToolTip": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\APISEMINARIO\\Conocimiento.cs",
+              "RelativeToolTip": "APISEMINARIO\\Conocimiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T20:23:00.906Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Empresa.cs",
+              "DocumentMoniker": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\APISEMINARIO\\Empresa.cs",
+              "RelativeDocumentMoniker": "APISEMINARIO\\Empresa.cs",
+              "ToolTip": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\APISEMINARIO\\Empresa.cs",
+              "RelativeToolTip": "APISEMINARIO\\Empresa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T20:23:01.852Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Proyecto.cs",
+              "DocumentMoniker": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\APISEMINARIO\\Proyecto.cs",
+              "RelativeDocumentMoniker": "APISEMINARIO\\Proyecto.cs",
+              "ToolTip": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\APISEMINARIO\\Proyecto.cs",
+              "RelativeToolTip": "APISEMINARIO\\Proyecto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T20:23:10.758Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Tecnico.cs",
+              "DocumentMoniker": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\APISEMINARIO\\Tecnico.cs",
+              "RelativeDocumentMoniker": "APISEMINARIO\\Tecnico.cs",
+              "ToolTip": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\APISEMINARIO\\Tecnico.cs",
+              "RelativeToolTip": "APISEMINARIO\\Tecnico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T20:23:11.808Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TecnicoProyecto.cs",
+              "DocumentMoniker": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\APISEMINARIO\\TecnicoProyecto.cs",
+              "RelativeDocumentMoniker": "APISEMINARIO\\TecnicoProyecto.cs",
+              "ToolTip": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\APISEMINARIO\\TecnicoProyecto.cs",
+              "RelativeToolTip": "APISEMINARIO\\TecnicoProyecto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T20:23:12.664Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SENATIContext.cs",
+              "DocumentMoniker": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\APISEMINARIO\\SENATIContext.cs",
+              "RelativeDocumentMoniker": "APISEMINARIO\\SENATIContext.cs",
+              "ToolTip": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\APISEMINARIO\\SENATIContext.cs",
+              "RelativeToolTip": "APISEMINARIO\\SENATIContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T20:23:20.864Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\SEMINARIO02\\appsettings.json",
+              "RelativeDocumentMoniker": "SEMINARIO02\\appsettings.json",
+              "ToolTip": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\SEMINARIO02\\appsettings.json",
+              "RelativeToolTip": "SEMINARIO02\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-03T20:23:25.668Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\SEMINARIO02\\Program.cs",
+              "RelativeDocumentMoniker": "SEMINARIO02\\Program.cs",
+              "ToolTip": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\SEMINARIO02\\Program.cs",
+              "RelativeToolTip": "SEMINARIO02\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T20:23:33.861Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240314024722_FirstMigration.cs",
+              "DocumentMoniker": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\APISEMINARIO\\Migrations\\20240314024722_FirstMigration.cs",
+              "RelativeDocumentMoniker": "APISEMINARIO\\Migrations\\20240314024722_FirstMigration.cs",
+              "ToolTip": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\APISEMINARIO\\Migrations\\20240314024722_FirstMigration.cs",
+              "RelativeToolTip": "APISEMINARIO\\Migrations\\20240314024722_FirstMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T20:23:54.45Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriaModel.cs",
+              "DocumentMoniker": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\SEMINARIO02\\Models\\CategoriaModel.cs",
+              "RelativeDocumentMoniker": "SEMINARIO02\\Models\\CategoriaModel.cs",
+              "ToolTip": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\SEMINARIO02\\Models\\CategoriaModel.cs",
+              "RelativeToolTip": "SEMINARIO02\\Models\\CategoriaModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T20:24:15.295Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClienteModel.cs",
+              "DocumentMoniker": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\SEMINARIO02\\Models\\ClienteModel.cs",
+              "RelativeDocumentMoniker": "SEMINARIO02\\Models\\ClienteModel.cs",
+              "ToolTip": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\SEMINARIO02\\Models\\ClienteModel.cs",
+              "RelativeToolTip": "SEMINARIO02\\Models\\ClienteModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T20:24:16.155Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConocimientoModel.cs",
+              "DocumentMoniker": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\SEMINARIO02\\Models\\ConocimientoModel.cs",
+              "RelativeDocumentMoniker": "SEMINARIO02\\Models\\ConocimientoModel.cs",
+              "ToolTip": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\SEMINARIO02\\Models\\ConocimientoModel.cs",
+              "RelativeToolTip": "SEMINARIO02\\Models\\ConocimientoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T20:24:17.064Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmpresaModel.cs",
+              "DocumentMoniker": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\SEMINARIO02\\Models\\EmpresaModel.cs",
+              "RelativeDocumentMoniker": "SEMINARIO02\\Models\\EmpresaModel.cs",
+              "ToolTip": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\SEMINARIO02\\Models\\EmpresaModel.cs",
+              "RelativeToolTip": "SEMINARIO02\\Models\\EmpresaModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T20:24:18.063Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProyectoModel.cs",
+              "DocumentMoniker": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\SEMINARIO02\\Models\\ProyectoModel.cs",
+              "RelativeDocumentMoniker": "SEMINARIO02\\Models\\ProyectoModel.cs",
+              "ToolTip": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\SEMINARIO02\\Models\\ProyectoModel.cs",
+              "RelativeToolTip": "SEMINARIO02\\Models\\ProyectoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T20:24:34.33Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TecnicoModel.cs",
+              "DocumentMoniker": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\SEMINARIO02\\Models\\TecnicoModel.cs",
+              "RelativeDocumentMoniker": "SEMINARIO02\\Models\\TecnicoModel.cs",
+              "ToolTip": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\SEMINARIO02\\Models\\TecnicoModel.cs",
+              "RelativeToolTip": "SEMINARIO02\\Models\\TecnicoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T20:24:35.357Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TecnicoProyectoModel.cs",
+              "DocumentMoniker": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\SEMINARIO02\\Models\\TecnicoProyectoModel.cs",
+              "RelativeDocumentMoniker": "SEMINARIO02\\Models\\TecnicoProyectoModel.cs",
+              "ToolTip": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\SEMINARIO02\\Models\\TecnicoProyectoModel.cs",
+              "RelativeToolTip": "SEMINARIO02\\Models\\TecnicoProyectoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T20:24:36.269Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\SEMINARIO02\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "SEMINARIO02\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\ALONSO\\OneDrive\\Alonsopy-jv-wb-db\\Sem Complement Practica I\\4to SEM SEMINARIO\\SEMINARIO002\\SEMINARIO02\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "SEMINARIO02\\Controllers\\CategoriaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T20:24:51.961Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

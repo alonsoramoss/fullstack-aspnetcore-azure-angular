@@ -1,0 +1,6 @@
+@SEMINARIO02_HostAddress = http://localhost:5064
+
+GET {{SEMINARIO02_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

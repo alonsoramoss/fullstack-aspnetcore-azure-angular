@@ -1,0 +1,28 @@
+C:\Users\ALONSO\Downloads\AlonsoR\Alonso py, jv, wb, db\SEM COMPLEMENT PRACT I\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\bin\Release\net8.0\APISEMINARIO.deps.json
+C:\Users\ALONSO\Downloads\AlonsoR\Alonso py, jv, wb, db\SEM COMPLEMENT PRACT I\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\bin\Release\net8.0\APISEMINARIO.runtimeconfig.json
+C:\Users\ALONSO\Downloads\AlonsoR\Alonso py, jv, wb, db\SEM COMPLEMENT PRACT I\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\bin\Release\net8.0\APISEMINARIO.dll
+C:\Users\ALONSO\Downloads\AlonsoR\Alonso py, jv, wb, db\SEM COMPLEMENT PRACT I\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\bin\Release\net8.0\APISEMINARIO.pdb
+C:\Users\ALONSO\Downloads\AlonsoR\Alonso py, jv, wb, db\SEM COMPLEMENT PRACT I\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\obj\Release\net8.0\APISEMINARIO.csproj.AssemblyReference.cache
+C:\Users\ALONSO\Downloads\AlonsoR\Alonso py, jv, wb, db\SEM COMPLEMENT PRACT I\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\obj\Release\net8.0\APISEMINARIO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ALONSO\Downloads\AlonsoR\Alonso py, jv, wb, db\SEM COMPLEMENT PRACT I\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\obj\Release\net8.0\APISEMINARIO.AssemblyInfoInputs.cache
+C:\Users\ALONSO\Downloads\AlonsoR\Alonso py, jv, wb, db\SEM COMPLEMENT PRACT I\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\obj\Release\net8.0\APISEMINARIO.AssemblyInfo.cs
+C:\Users\ALONSO\Downloads\AlonsoR\Alonso py, jv, wb, db\SEM COMPLEMENT PRACT I\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\obj\Release\net8.0\APISEMINARIO.csproj.CoreCompileInputs.cache
+C:\Users\ALONSO\Downloads\AlonsoR\Alonso py, jv, wb, db\SEM COMPLEMENT PRACT I\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\obj\Release\net8.0\APISEMINARIO.dll
+C:\Users\ALONSO\Downloads\AlonsoR\Alonso py, jv, wb, db\SEM COMPLEMENT PRACT I\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\obj\Release\net8.0\refint\APISEMINARIO.dll
+C:\Users\ALONSO\Downloads\AlonsoR\Alonso py, jv, wb, db\SEM COMPLEMENT PRACT I\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\obj\Release\net8.0\APISEMINARIO.pdb
+C:\Users\ALONSO\Downloads\AlonsoR\Alonso py, jv, wb, db\SEM COMPLEMENT PRACT I\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\obj\Release\net8.0\APISEMINARIO.genruntimeconfig.cache
+C:\Users\ALONSO\Downloads\AlonsoR\Alonso py, jv, wb, db\SEM COMPLEMENT PRACT I\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\obj\Release\net8.0\ref\APISEMINARIO.dll
+C:\Users\ALONSO\Downloads\AlonsoR\AlonsoPy-jv-wb-db\SemComplementPractI\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\bin\Release\net8.0\APISEMINARIO.deps.json
+C:\Users\ALONSO\Downloads\AlonsoR\AlonsoPy-jv-wb-db\SemComplementPractI\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\bin\Release\net8.0\APISEMINARIO.runtimeconfig.json
+C:\Users\ALONSO\Downloads\AlonsoR\AlonsoPy-jv-wb-db\SemComplementPractI\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\bin\Release\net8.0\APISEMINARIO.dll
+C:\Users\ALONSO\Downloads\AlonsoR\AlonsoPy-jv-wb-db\SemComplementPractI\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\bin\Release\net8.0\APISEMINARIO.pdb
+C:\Users\ALONSO\Downloads\AlonsoR\AlonsoPy-jv-wb-db\SemComplementPractI\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\obj\Release\net8.0\APISEMINARIO.csproj.AssemblyReference.cache
+C:\Users\ALONSO\Downloads\AlonsoR\AlonsoPy-jv-wb-db\SemComplementPractI\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\obj\Release\net8.0\APISEMINARIO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ALONSO\Downloads\AlonsoR\AlonsoPy-jv-wb-db\SemComplementPractI\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\obj\Release\net8.0\APISEMINARIO.AssemblyInfoInputs.cache
+C:\Users\ALONSO\Downloads\AlonsoR\AlonsoPy-jv-wb-db\SemComplementPractI\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\obj\Release\net8.0\APISEMINARIO.AssemblyInfo.cs
+C:\Users\ALONSO\Downloads\AlonsoR\AlonsoPy-jv-wb-db\SemComplementPractI\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\obj\Release\net8.0\APISEMINARIO.csproj.CoreCompileInputs.cache
+C:\Users\ALONSO\Downloads\AlonsoR\AlonsoPy-jv-wb-db\SemComplementPractI\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\obj\Release\net8.0\APISEMINARIO.dll
+C:\Users\ALONSO\Downloads\AlonsoR\AlonsoPy-jv-wb-db\SemComplementPractI\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\obj\Release\net8.0\refint\APISEMINARIO.dll
+C:\Users\ALONSO\Downloads\AlonsoR\AlonsoPy-jv-wb-db\SemComplementPractI\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\obj\Release\net8.0\APISEMINARIO.pdb
+C:\Users\ALONSO\Downloads\AlonsoR\AlonsoPy-jv-wb-db\SemComplementPractI\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\obj\Release\net8.0\APISEMINARIO.genruntimeconfig.cache
+C:\Users\ALONSO\Downloads\AlonsoR\AlonsoPy-jv-wb-db\SemComplementPractI\4to SEM SEMINARIO\SEMINARIO002\APISEMINARIO\obj\Release\net8.0\ref\APISEMINARIO.dll
