@@ -1,0 +1,80 @@
+<!-- proyecto.component.html -->
+
+<h2 style="text-align: center; font-size: 20px;">Lista de Proyectos</h2>
+
+<div style="width: 100%; overflow-x: auto; position: relative;">
+  <table style="width: 100%; border-collapse: collapse;">
+    <thead>
+      <tr>
+        <th style="padding: 8px; border: 1px solid #ddd; background-color: #f2f2f2; text-align: center; font-size: 16px;">ID</th>
+        <th style="padding: 8px; border: 1px solid #ddd; background-color: #f2f2f2; text-align: center; font-size: 16px;">Nombre del Proyecto</th>
+        <th style="padding: 8px; border: 1px solid #ddd; background-color: #f2f2f2; text-align: center; font-size: 16px;">Fecha de Inicio</th>
+        <th style="padding: 8px; border: 1px solid #ddd; background-color: #f2f2f2; text-align: center; font-size: 16px;">Fecha de Fin</th>
+        <th style="padding: 8px; border: 1px solid #ddd; background-color: #f2f2f2; text-align: center; font-size: 16px;">ID del Cliente</th>
+        <th style="padding: 8px; border: 1px solid #ddd; background-color: #f2f2f2; text-align: center; font-size: 16px;">Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let proyecto of proyectos">
+        <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">{{ proyecto.id }}</td>
+        <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">{{ proyecto.nombreProyecto }}</td>
+        <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">{{ proyecto.fechaInicio }}</td>
+        <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">{{ proyecto.fechaFin }}</td>
+        <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">{{ proyecto.clienteId }}</td>
+        <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">
+          <button style="margin-left: 5px; background-color: yellow; color: black; font-size: 12px;" (click)="seleccionarProyecto(proyecto)">Editar</button>
+          <button style="background-color: red; color: white; font-size: 12px;" (click)="eliminarProyecto(proyecto.id)">Eliminar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2 style="text-align: center; font-size: 20px;">Editar Proyecto</h2>
+
+<div *ngIf="modoEdicion" style="text-align: center;">
+  <form (submit)="guardarProyecto()">
+    <div style="margin-bottom: 10px;">
+      <label for="nombreProyecto">Nombre del Proyecto:</label><br>
+      <input type="text" id="nombreProyecto" [(ngModel)]="proyectoSeleccionado.nombreProyecto" name="nombreProyecto" required><br>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <label for="fechaInicio">Fecha de Inicio:</label><br>
+      <input type="date" id="fechaInicio" [(ngModel)]="proyectoSeleccionado.fechaInicio" name="fechaInicio" required><br>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <label for="fechaFin">Fecha de Fin:</label><br>
+      <input type="date" id="fechaFin" [(ngModel)]="proyectoSeleccionado.fechaFin" name="fechaFin"><br>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <label for="clienteId">ID del Cliente:</label><br>
+      <input type="number" id="clienteId" [(ngModel)]="proyectoSeleccionado.clienteId" name="clienteId" required><br>
+    </div>
+    <button type="submit" style="background-color: green; color: white; font-size: 14px;">Guardar</button>
+    <button type="button" (click)="cancelarEdicion()" style="background-color: gray; color: white; font-size: 14px;">Cancelar</button>
+  </form>
+</div>
+
+<h2 style="text-align: center; font-size: 20px;">Agregar Nuevo Proyecto</h2>
+
+<div *ngIf="!modoEdicion" style="text-align: center;">
+  <form (submit)="guardarProyecto()">
+    <div style="margin-bottom: 10px;">
+      <label for="nombreProyecto">Nombre del Proyecto:</label><br>
+      <input type="text" id="nombreProyecto" [(ngModel)]="proyectoSeleccionado.nombreProyecto" name="nombreProyecto" required><br>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <label for="fechaInicio">Fecha de Inicio:</label><br>
+      <input type="date" id="fechaInicio" [(ngModel)]="proyectoSeleccionado.fechaInicio" name="fechaInicio" required><br>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <label for="fechaFin">Fecha de Fin:</label><br>
+      <input type="date" id="fechaFin" [(ngModel)]="proyectoSeleccionado.fechaFin" name="fechaFin"><br>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <label for="clienteId">ID del Cliente:</label><br>
+      <input type="number" id="clienteId" [(ngModel)]="proyectoSeleccionado.clienteId" name="clienteId" required><br>
+    </div>
+    <button type="submit" style="background-color: green; color: white; font-size: 14px;">Guardar</button>
+  </form>
+</div>

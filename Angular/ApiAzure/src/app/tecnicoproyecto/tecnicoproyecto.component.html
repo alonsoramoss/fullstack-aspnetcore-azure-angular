@@ -1,0 +1,78 @@
+<!-- tecnicoproyecto.component.html -->
+
+<h2 style="text-align: center; font-size: 20px;">Lista de Técnicos en Proyectos</h2>
+
+<div style="width: 100%; overflow-x: auto; position: relative;">
+  <table style="width: 100%; border-collapse: collapse;">
+    <thead>
+      <tr>
+        <th style="padding: 8px; border: 1px solid #ddd; background-color: #f2f2f2; text-align: center; font-size: 16px;">ID del Técnico</th>
+        <th style="padding: 8px; border: 1px solid #ddd; background-color: #f2f2f2; text-align: center; font-size: 16px;">ID del Proyecto</th>
+        <th style="padding: 8px; border: 1px solid #ddd; background-color: #f2f2f2; text-align: center; font-size: 16px;">Fecha de Asignación</th>
+        <th style="padding: 8px; border: 1px solid #ddd; background-color: #f2f2f2; text-align: center; font-size: 16px;">Fecha de Cese</th>
+        <th style="padding: 8px; border: 1px solid #ddd; background-color: #f2f2f2; text-align: center; font-size: 16px;">Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let tecnicoproyecto of tecnicoproyectos">
+        <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">{{ tecnicoproyecto.tecnicoId }}</td>
+        <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">{{ tecnicoproyecto.proyectoId }}</td>
+        <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">{{ tecnicoproyecto.fechaAsignacion }}</td>
+        <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">{{ tecnicoproyecto.fechaCese }}</td>
+        <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">
+          <button style="margin-left: 5px; background-color: yellow; color: black; font-size: 12px;" (click)="seleccionarTecnicoproyecto(tecnicoproyecto)">Editar</button>
+          <button style="background-color: red; color: white; font-size: 12px;" (click)="eliminarTecnicoproyecto(tecnicoproyecto.tecnicoId, tecnicoproyecto.proyectoId)">Eliminar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2 style="text-align: center; font-size: 20px;">Editar Técnico en Proyecto</h2>
+
+<div *ngIf="modoEdicion" style="text-align: center;">
+  <form (submit)="guardarTecnicoproyecto()">
+    <div style="margin-bottom: 10px;">
+      <label for="tecnicoId">ID del Técnico:</label><br>
+      <input type="number" id="tecnicoId" [(ngModel)]="tecnicoproyectoSeleccionado.tecnicoId" name="tecnicoId" required><br>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <label for="proyectoId">ID del Proyecto:</label><br>
+      <input type="number" id="proyectoId" [(ngModel)]="tecnicoproyectoSeleccionado.proyectoId" name="proyectoId" required><br>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <label for="fechaAsignacion">Fecha de Asignación:</label><br>
+      <input type="date" id="fechaAsignacion" [(ngModel)]="tecnicoproyectoSeleccionado.fechaAsignacion" name="fechaAsignacion" required><br>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <label for="fechaCese">Fecha de Cese:</label><br>
+      <input type="date" id="fechaCese" [(ngModel)]="tecnicoproyectoSeleccionado.fechaCese" name="fechaCese"><br>
+    </div>
+    <button type="submit" style="background-color: green; color: white; font-size: 14px;">Guardar</button>
+    <button type="button" (click)="cancelarEdicion()" style="background-color: gray; color: white; font-size: 14px;">Cancelar</button>
+  </form>
+</div>
+
+<h2 style="text-align: center; font-size: 20px;">Agregar Nuevo Técnico en Proyecto</h2>
+
+<div *ngIf="!modoEdicion" style="text-align: center;">
+  <form (submit)="guardarTecnicoproyecto()">
+    <div style="margin-bottom: 10px;">
+      <label for="tecnicoId">ID del Técnico:</label><br>
+      <input type="number" id="tecnicoId" [(ngModel)]="tecnicoproyectoSeleccionado.tecnicoId" name="tecnicoId" required><br>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <label for="proyectoId">ID del Proyecto:</label><br>
+      <input type="number" id="proyectoId" [(ngModel)]="tecnicoproyectoSeleccionado.proyectoId" name="proyectoId" required><br>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <label for="fechaAsignacion">Fecha de Asignación:</label><br>
+      <input type="date" id="fechaAsignacion" [(ngModel)]="tecnicoproyectoSeleccionado.fechaAsignacion" name="fechaAsignacion" required><br>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <label for="fechaCese">Fecha de Cese:</label><br>
+      <input type="date" id="fechaCese" [(ngModel)]="tecnicoproyectoSeleccionado.fechaCese" name="fechaCese"><br>
+    </div>
+    <button type="submit" style="background-color: green; color: white; font-size: 14px;">Guardar</button>
+  </form>
+</div>

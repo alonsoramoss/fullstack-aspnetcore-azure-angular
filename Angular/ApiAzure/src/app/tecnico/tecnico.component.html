@@ -1,0 +1,89 @@
+<!-- tecnico.component.html -->
+
+<h2 style="text-align: center; font-size: 20px;">Lista de Técnicos</h2>
+
+<div style="width: 100%; overflow-x: auto; position: relative;">
+  <table style="width: 100%; border-collapse: collapse;">
+    <thead>
+      <tr>
+        <th style="padding: 8px; border: 1px solid #ddd; background-color: #f2f2f2; text-align: center; font-size: 16px;">ID</th>
+        <th style="padding: 8px; border: 1px solid #ddd; background-color: #f2f2f2; text-align: center; font-size: 16px;">Nombre del Técnico</th>
+        <th style="padding: 8px; border: 1px solid #ddd; background-color: #f2f2f2; text-align: center; font-size: 16px;">Fecha de Alta</th>
+        <th style="padding: 8px; border: 1px solid #ddd; background-color: #f2f2f2; text-align: center; font-size: 16px;">Fecha de Baja</th>
+        <th style="padding: 8px; border: 1px solid #ddd; background-color: #f2f2f2; text-align: center; font-size: 16px;">ID de la Empresa</th>
+        <th style="padding: 8px; border: 1px solid #ddd; background-color: #f2f2f2; text-align: center; font-size: 16px;">ID de la Categoría</th>
+        <th style="padding: 8px; border: 1px solid #ddd; background-color: #f2f2f2; text-align: center; font-size: 16px;">Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let tecnico of tecnicos">
+        <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">{{ tecnico.id }}</td>
+        <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">{{ tecnico.nombreTecnico }}</td>
+        <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">{{ tecnico.fechaAlta }}</td>
+        <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">{{ tecnico.fechaBaja }}</td>
+        <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">{{ tecnico.empresaId }}</td>
+        <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">{{ tecnico.categoriaId }}</td>
+        <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">
+          <button style="margin-left: 5px; background-color: yellow; color: black; font-size: 12px;" (click)="seleccionarTecnico(tecnico)">Editar</button>
+          <button style="background-color: red; color: white; font-size: 12px;" (click)="eliminarTecnico(tecnico.id)">Eliminar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2 style="text-align: center; font-size: 20px;">Editar Técnico</h2>
+<div *ngIf="modoEdicion" style="text-align: center;">
+  <form (submit)="guardarTecnico()">
+    <div style="margin-bottom: 10px;">
+      <label for="nombreTecnico">Nombre del Técnico:</label><br>
+      <input type="text" id="nombreTecnico" [(ngModel)]="tecnicoSeleccionado.nombreTecnico" name="nombreTecnico" required><br>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <label for="fechaAlta">Fecha de Alta:</label><br>
+      <input type="date" id="fechaAlta" [(ngModel)]="tecnicoSeleccionado.fechaAlta" name="fechaAlta" required><br>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <label for="fechaBaja">Fecha de Baja:</label><br>
+      <input type="date" id="fechaBaja" [(ngModel)]="tecnicoSeleccionado.fechaBaja" name="fechaBaja"><br>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <label for="empresaId">ID de la Empresa:</label><br>
+      <input type="number" id="empresaId" [(ngModel)]="tecnicoSeleccionado.empresaId" name="empresaId" required><br>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <label for="categoriaId">ID de la Categoría:</label><br>
+      <input type="number" id="categoriaId" [(ngModel)]="tecnicoSeleccionado.categoriaId" name="categoriaId" required><br>
+    </div>
+    <button type="submit" style="background-color: green; color: white; font-size: 14px;">Guardar</button>
+    <button type="button" (click)="cancelarEdicion()" style="background-color: gray; color: white; font-size: 14px;">Cancelar</button>
+  </form>
+</div>
+
+<h2 style="text-align: center; font-size: 20px;">Agregar Nuevo Técnico</h2>
+
+<div *ngIf="!modoEdicion" style="text-align: center;">
+  <form (submit)="guardarTecnico()">
+    <div style="margin-bottom: 10px;">
+      <label for="nombreTecnico">Nombre del Técnico:</label><br>
+      <input type="text" id="nombreTecnico" [(ngModel)]="tecnicoSeleccionado.nombreTecnico" name="nombreTecnico" required><br>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <label for="fechaAlta">Fecha de Alta:</label><br>
+      <input type="date" id="fechaAlta" [(ngModel)]="tecnicoSeleccionado.fechaAlta" name="fechaAlta" required><br>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <label for="fechaBaja">Fecha de Baja:</label><br>
+      <input type="date" id="fechaBaja" [(ngModel)]="tecnicoSeleccionado.fechaBaja" name="fechaBaja"><br>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <label for="empresaId">ID de la Empresa:</label><br>
+      <input type="number" id="empresaId" [(ngModel)]="tecnicoSeleccionado.empresaId" name="empresaId" required><br>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <label for="categoriaId">ID de la Categoría:</label><br>
+      <input type="number" id="categoriaId" [(ngModel)]="tecnicoSeleccionado.categoriaId" name="categoriaId" required><br>
+    </div>
+    <button type="submit" style="background-color: green; color: white; font-size: 14px;">Guardar</button>
+  </form>
+</div>
