@@ -1,8 +1,12 @@
-# Desarrollo con ASP.NET Core, Entity Framework, SQL Server en Azure y Angular
+# Aplicación Full Stack: ASP.NET Core, Entity Framework, Angular y Azure
 
-### 🛠️ Tecnologías
-- **C# con ASP.NET Core:** Desarrollo de la lógica de la aplicación y la gestión de tablas en la base de datos.
-- **Entity Framework**: Interacción con la base de datos y gestión de migraciones.
-- **SQL Server en Azure:** Almacenamiento de datos en la nube. 
-- **Despliegue en App Services de Azure:** La aplicación backend está publicada en Azure App Services con un dominio personalizado, permitiendo el acceso y consumo de datos por el frontend.
-- **Angular:** Realiza solicitudes HTTP a las APIs del backend desplegadas en Azure para obtener, agregar, actualizar o eliminar datos. Los datos recibidos se muestran en la interfaz de usuario organizada en tablas.
+### Backend:
+- **ASP.NET Core:** Desarrollo de APIs RESTful y lógica del negocio.
+- **Entity Framework Core:** Acceso a datos y gestión de migraciones.
+- **SQL Server (Azure):** Base de datos en la nube para persistencia de datos.
+- **Azure App Services:** Despliegue del backend con dominio personalizado.
+
+### Frontend:
+- **Angular:** Desarrollo de interfaz de usuario.
+- **HttpClient:** Comunicación con las APIs del backend para operaciones CRUD.
+- **Tablas dinámicas:** Visualización clara y estructurada de los datos.
