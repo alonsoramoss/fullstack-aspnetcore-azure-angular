@@ -1,4 +1,4 @@
-# Aplicación Full Stack: ASP.NET Core, Entity Framework, Azure y Angular 
+# Aplicación Full Stack: ASP.NET Core, Entity Framework Core, Azure y Angular 
 
 ### Backend
 - **ASP.NET Core:** Desarrollo de APIs RESTful y lógica del negocio.
